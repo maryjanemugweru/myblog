@@ -1,24 +1,6 @@
 {
   "blogs": [
     {
-      "title": "Web Development",
-      "author": "MJ",
-      "body": "lorem ipsum dolor sit amet, consequeir adipiscing elit",
-      "id": "1"
-    },
-    {
-      "title": "Java Programming",
-      "author": "Wangui",
-      "body": "lorem ipsum dolor sit amet, consequeir adipiscing elit",
-      "id": "2"
-    },
-    {
-      "title": "Dev ops engineer",
-      "author": "Mugweru",
-      "body": "lorem ipsum dolor sit amet, consequeir adipiscing elit",
-      "id": "3"
-    },
-    {
       "id": "0e71",
       "title": "How I met your mother",
       "author": "MJ",

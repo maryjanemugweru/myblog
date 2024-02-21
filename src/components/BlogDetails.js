@@ -1,11 +1,10 @@
-import { useParams } from "react-router-dom";
-import useFetch from "./useFetch";
-import { useHistory } from "react-router-dom";
+import { useHistory, useParams } from "react-router-dom/cjs/react-router-dom";
+import UseFetch from "./UseFetch";
 import axios from "axios";
 
 const BlogDetails =() =>{
     const {id} = useParams()
-    const {data:blogs} =useFetch('http://localhost:4000/blogs/' +id);
+    const {data:blogs} =UseFetch('http://localhost:4000/blogs/' +id);
     const history = useHistory();
 
     const handleDelete = (e)=>{

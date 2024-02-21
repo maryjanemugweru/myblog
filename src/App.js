@@ -1,11 +1,11 @@
  
 import './App.css';
 import BlogDetails from './components/BlogDetails';
-
+import {BrowserRouter as Router,Route,Switch} from 'react-router-dom/cjs/react-router-dom';
 import Form from './components/Form';
 import MyBlog from './components/Home';
 import Navbar from './components/Navbar';
-import {BrowserRouter as Router,Route,Switch} from 'react-router-dom/cjs/react-router-dom';
+
 
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
           <Route path="/Form">
             <Form/>
           </Route>
-          <Route path="/BlogDetails/:id">
+          <Route path="/Blog-details/:id">
             <BlogDetails/>
           </Route>
         </Switch>

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React , { useState } from "react";
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -55,7 +55,7 @@ const handleSubmit = (e) => {
 return(
     <div>
         <form onSubmit={handleSubmit}>
-                <div className="w-50 p-3 mx-auto">
+                <div className="Form w-50 p-3 mx-auto">
                     <div className="form-group">
                         <label className="mb-1"> Title</label>
                         <input type="text" className="form-control" name="title" value={data.title} onChange={handleChange} placeholder='Enter title'/><br/>

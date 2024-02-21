@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom/cjs/react-router-dom";
-
+import React from "react";
+import { Link } from "react-router-dom";
 const Navbar = () =>{
     return(
         <nav className="navbar"> 
