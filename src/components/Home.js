@@ -8,7 +8,6 @@ const MyBlog = () => {
         <div className="home">
             {data && <BlogList blogs={data} title="All Blogs"/>}
         </div>
-
     );
 }
 
